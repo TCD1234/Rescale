@@ -1,0 +1,43 @@
+# --- System & Linux junk ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# --- Gradle (Сборка) ---
+.gradle/
+build/
+out/
+classes/
+
+# --- IDEs (Настройки редактора) ---
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+# VS Code / Eclipse
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# --- Minecraft Run Folders ---
+run*/
+
+# --- Logs & Crash Reports ---
+logs/
+crash-reports/
+debug/
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+debug.log
+latest.log
+
+# --- Fabric / Loader specific ---
+.fabric/
+.mixin.out/

@@ -1,0 +1,35 @@
+{
+  "text.autoconfig.rescale.title": "Масштабтау параметрлері",
+  "text.autoconfig.rescale.category.general": "Негізгі",
+  "text.autoconfig.rescale.option.enabled": "Модты іске қосу",
+
+  "text.autoconfig.rescale.option.preset": "Көрініс қатынасының шаблоны",
+  "text.autoconfig.rescale.option.preset.@Tooltip": "Стандартты қатынасты таңдаңыз немесе төмендегі жылжытқышты қолдану үшін «Басқа» таңдаңыз.",
+
+  "text.autoconfig.rescale.option.customRatio": "Басқа қатынас мәні",
+  "text.autoconfig.rescale.option.customRatio.@Tooltip": "Тек Шаблон «Басқа» болған кезде қолданылады. Мысалдар: 1.33 = 4:3, 1.77 = 16:9",
+
+  "text.autoconfig.rescale.option.preset.CUSTOM": "Басқа жылжытқыш",
+  "text.autoconfig.rescale.option.preset.R_16_9": "16:9 (Әдепкі)",
+  "text.autoconfig.rescale.option.preset.R_16_10": "16:10 (Ноутбук)",
+  "text.autoconfig.rescale.option.preset.R_4_3": "4:3 (CS:GO созылған)",
+  "text.autoconfig.rescale.option.preset.R_5_4": "5:4 (Шаршы)",
+  "text.autoconfig.rescale.option.preset.R_21_9": "21:9",
+
+  "text.autoconfig.rescale.option.viewModel": "Көрініс үлгісінің параметрлері",
+  "text.autoconfig.rescale.option.viewModel.enabled": "Көрініс үлгісінің өзгертулерін іске қосу",
+  "text.autoconfig.rescale.option.viewModel.enabled.@Tooltip": "Қолдың орнын, бұрышын және масштабын өзгертуге рұқсат беру.",
+
+  "text.autoconfig.rescale.category.position": "Орын (Ығысу)",
+  "text.autoconfig.rescale.category.rotation": "Бұру",
+  "text.autoconfig.rescale.category.scale": "Масштаб",
+
+  "text.autoconfig.rescale.option.viewModel.posX": "X ығысуы (Солға/Оңға)",
+  "text.autoconfig.rescale.option.viewModel.posX.@Tooltip": "Қолды жанға қарай жылжытады. 100 мәні = 1 блок.",
+
+  "text.autoconfig.rescale.option.viewModel.posY": "Y ығысуы (Жоғары/Төмен)",
+  "text.autoconfig.rescale.option.viewModel.posY.@Tooltip": "Қолды вертикаль бойымен жылжытады. 100 мәні = 1 блок.",
+
+  "text.autoconfig.rescale.option.viewModel.posZ": "Z ығысуы (Тереңдік)",
+  "text.autoconfig.rescale.option.viewModel.posZ.@Tooltip": "Қолды алға/артқа жылжытады. Теріс мәндер қолдарды ұзынырақ етіп көрсетеді (CS:GO стилі)."
+}

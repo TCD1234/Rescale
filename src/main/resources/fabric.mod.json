@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "rescale",
+	"version": "${version}",
+	"name": "Rescale",
+	"description": "Stretched Resolution. The correct resolution",
+	"authors": [
+		"TCD1234"
+	],
+	"contact": {
+      "homepage": "https://modrinth.com/mod/rescale",
+      "issues": "https://github.com/TCD1234/Rescale/issues",
+      "sources": "https://github.com/TCD1234/Rescale"
+    },
+	"license": "MIT",
+	"icon": "assets/rescale/icon.png",
+	"environment": "*",
+    "entrypoints": {
+      "main": [],
+      "client": [
+        "tcd.rescale.Rescale"
+      ],
+      "modmenu": [ "tcd.rescale.ModMenuIntegration" ]
+    },
+	"mixins": [
+		"rescale.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "text.autoconfig.rescale.title": "Настройки масштабирования",
+  "text.autoconfig.rescale.category.general": "Основное",
+  "text.autoconfig.rescale.option.enabled": "Включить мод",
+
+  "text.autoconfig.rescale.option.preset": "Пресет соотношения сторон",
+  "text.autoconfig.rescale.option.preset.@Tooltip": "Выберите стандартное соотношение или «Вручную», чтобы использовать ползунок ниже.",
+
+  "text.autoconfig.rescale.option.customRatio": "Пользовательское значение соотношения",
+  "text.autoconfig.rescale.option.customRatio.@Tooltip": "Используется только если выбран пресет «Вручную». Примеры: 1.33 = 4:3, 1.77 = 16:9",
+
+  "text.autoconfig.rescale.option.preset.CUSTOM": "Ползунок вручную",
+  "text.autoconfig.rescale.option.preset.R_16_9": "16:9 (по умолчанию)",
+  "text.autoconfig.rescale.option.preset.R_16_10": "16:10 (ноутбук)",
+  "text.autoconfig.rescale.option.preset.R_4_3": "4:3 (растяжка CS:GO)",
+  "text.autoconfig.rescale.option.preset.R_5_4": "5:4 (квадрат)",
+  "text.autoconfig.rescale.option.preset.R_21_9": "21:9",
+
+  "text.autoconfig.rescale.option.viewModel": "Настройки модели от первого лица",
+  "text.autoconfig.rescale.option.viewModel.enabled": "Включить настройки модели от первого лица",
+  "text.autoconfig.rescale.option.viewModel.enabled.@Tooltip": "Разрешить изменение положения, поворота и масштаба рук.",
+
+  "text.autoconfig.rescale.category.position": "Положение (смещение)",
+  "text.autoconfig.rescale.category.rotation": "Поворот",
+  "text.autoconfig.rescale.category.scale": "Масштаб",
+
+  "text.autoconfig.rescale.option.viewModel.posX": "Смещение по X (влево/вправо)",
+  "text.autoconfig.rescale.option.viewModel.posX.@Tooltip": "Сдвигает руку вбок. Значение 100 = 1 блок.",
+
+  "text.autoconfig.rescale.option.viewModel.posY": "Смещение по Y (вверх/вниз)",
+  "text.autoconfig.rescale.option.viewModel.posY.@Tooltip": "Сдвигает руку по вертикали. Значение 100 = 1 блок.",
+
+  "text.autoconfig.rescale.option.viewModel.posZ": "Смещение по Z (глубина)",
+  "text.autoconfig.rescale.option.viewModel.posZ.@Tooltip": "Сдвигает руку вперёд/назад. Отрицательные значения делают руки длиннее (стиль CS:GO)."
+}
