@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "tcd.rescale.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "GameRendererMixin",
+      "HeldItemRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
