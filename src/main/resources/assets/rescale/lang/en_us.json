@@ -1,42 +1,30 @@
 {
-  "text.autoconfig.rescale.title": "Rescale Settings",
-  "text.autoconfig.rescale.category.general": "Main",
+  "category.rescale": "Rescale",
+  "key.rescale.edit_mode": "Hand Editor (View Model)",
+  "text.autoconfig.rescale.title": "Scaling Settings",
+  "text.autoconfig.rescale.category.general": "General",
   "text.autoconfig.rescale.option.enabled": "Enable Mod",
-
   "text.autoconfig.rescale.option.preset": "Aspect Ratio Preset",
-  "text.autoconfig.rescale.option.preset.@Tooltip": "Select a standard ratio or choose 'Custom' to use the slider below.",
-
-  "text.autoconfig.rescale.option.customRatio": "Custom Ratio Value",
-  "text.autoconfig.rescale.option.customRatio.@Tooltip": "Used only if Preset is set to 'Custom'. Examples: 1.33 = 4:3, 1.77 = 16:9",
-
-  "text.autoconfig.rescale.option.preset.CUSTOM": "Custom Slider",
+  "text.autoconfig.rescale.option.preset.@Tooltip": "Select a standard ratio or choose 'Custom' to use the setting below.",
+  "text.autoconfig.rescale.option.customRatio": "Custom Aspect Ratio Value",
+  "text.autoconfig.rescale.option.customRatio.@Tooltip": "Only used when the 'Custom' preset is selected. Examples: 1.33 = 4:3, 1.77 = 16:9 (the smaller the value, the more stretched)",
+  "text.autoconfig.rescale.option.preset.CUSTOM": "Custom",
   "text.autoconfig.rescale.option.preset.R_16_9": "16:9 (Default)",
   "text.autoconfig.rescale.option.preset.R_16_10": "16:10 (Laptop)",
-  "text.autoconfig.rescale.option.preset.R_4_3": "4:3 (CS:GO Stretch)",
+  "text.autoconfig.rescale.option.preset.R_4_3": "4:3 (CS:GO)",
   "text.autoconfig.rescale.option.preset.R_5_4": "5:4 (Square)",
-  "text.autoconfig.rescale.option.preset.R_21_9": "21:9",
-
-  "text.autoconfig.rescale.option.viewModel": "View Model Settings",
-  "text.autoconfig.rescale.option.viewModel.enabled": "Enable View Model Tweaks",
-  "text.autoconfig.rescale.option.viewModel.enabled.@Tooltip": "Allow changing hand position, rotation and scale.",
-
+  "text.autoconfig.rescale.option.viewModel": "First-Person Hand Settings",
+  "text.autoconfig.rescale.option.viewModel.enabled": "Enable First-Person Hand Settings",
+  "text.autoconfig.rescale.option.viewModel.enabled.@Tooltip": "Allow adjusting the position, rotation, and scale of hands.",
   "text.autoconfig.rescale.category.position": "Position (Offset)",
   "text.autoconfig.rescale.category.rotation": "Rotation",
   "text.autoconfig.rescale.category.scale": "Scale",
-
   "text.autoconfig.rescale.option.viewModel.posX": "X Offset (Left/Right)",
-  "text.autoconfig.rescale.option.viewModel.posX.@Tooltip": "Moves hand sideways. Value 100 = 1 Block.",
-
+  "text.autoconfig.rescale.option.viewModel.posX.@Tooltip": "Moves the hand sideways.",
   "text.autoconfig.rescale.option.viewModel.posY": "Y Offset (Up/Down)",
-  "text.autoconfig.rescale.option.viewModel.posY.@Tooltip": "Moves hand vertically. Value 100 = 1 Block.",
-
+  "text.autoconfig.rescale.option.viewModel.posY.@Tooltip": "Moves the hand vertically.",
   "text.autoconfig.rescale.option.viewModel.posZ": "Z Offset (Depth)",
-  "text.autoconfig.rescale.option.viewModel.posZ.@Tooltip": "Moves hand forward/backward. Negative values make hands look longer (CS:GO style).",
-
-  "text.autoconfig.rescale.option.viewModel.rotX": "Rotation X (Pitch)",
-  "text.autoconfig.rescale.option.viewModel.rotY": "Rotation Y (Yaw)",
-  "text.autoconfig.rescale.option.viewModel.rotZ": "Rotation Z (Roll)",
-
+  "text.autoconfig.rescale.option.viewModel.posZ.@Tooltip": "Moves the hand forward/backward.",
   "text.autoconfig.rescale.option.viewModel.scale": "Hand Size (%)",
-  "text.autoconfig.rescale.option.viewModel.scale.@Tooltip": "100 = Normal Size. 80 = Small Hands."
+  "text.autoconfig.rescale.option.viewModel.scale.@Tooltip": "100 = Normal size."
 }
