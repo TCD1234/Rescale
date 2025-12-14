@@ -34,7 +34,7 @@ public class ModMenuIntegration implements ModMenuApi {
 
             general.addEntry(entry.startBooleanToggle(Text.translatable("text.autoconfig.rescale.option.enabled"), currentConfig.enabled)
                     .setDefaultValue(true)
-                    .setTooltip(Text.translatable("text.autoconfig.rescale.option.enabled.@Tooltip"))
+//                    .setTooltip(Text.translatable("text.autoconfig.rescale.option.enabled.@Tooltip"))
                     .setSaveConsumer(newValue -> currentConfig.enabled = newValue)
                     .build());
 

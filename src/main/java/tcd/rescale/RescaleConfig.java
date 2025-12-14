@@ -1,4 +1,4 @@
-package tcd.rescale; // ТЕПЕРЬ ТОЧНО ПРАВИЛЬНЫЙ ПАКЕТ! :D
+package tcd.rescale; // ТЕПЕРЬ ТОЧНО НЕ ПРАВИЛЬНЫЙ ПАКЕТ! :D
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
@@ -71,10 +71,9 @@ public class RescaleConfig implements ConfigData {
     public enum RatioPreset {
         CUSTOM(0.0f),       // Не важно
         R_16_9(1.7777f),    // Стандарт (Full HD)
-        R_16_10(1.6000f),   // Ноуты (MacBook)
+        R_16_10(1.6000f),   // Ноуты
         R_4_3(1.3333f),     // CS:GO
-        R_5_4(1.2500f),
-        R_21_9(2.3333f);
+        R_5_4(1.2500f);
 
         public final float value;
         RatioPreset(float value) { this.value = value; }
